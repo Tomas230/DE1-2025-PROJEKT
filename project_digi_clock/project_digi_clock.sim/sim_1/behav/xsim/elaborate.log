@@ -1,0 +1,17 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/appz/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto cfb63941ba9c4d519d27f57f57f1f684 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_clock_counter_behav xil_defaultlib.tb_clock_counter -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1537] value 0 is out of target constraint range 1 to 60000 [C:/Users/247765/Documents/project_digi_clock/project_digi_clock.srcs/sources_1/new/clock_counter.vhd:54]
+WARNING: [VRFC 10-1537] value 0 is out of target constraint range 1 to 60 [C:/Users/247765/Documents/project_digi_clock/project_digi_clock.srcs/sources_1/new/clock_counter.vhd:58]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.clock_counter [clock_counter_default]
+Compiling architecture tb of entity xil_defaultlib.tb_clock_counter
+Built simulation snapshot tb_clock_counter_behav

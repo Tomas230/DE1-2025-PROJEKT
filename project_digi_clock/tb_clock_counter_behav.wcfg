@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_clock_counter_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_clock_counter" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000fs"></ZoomEndTime>
+      <Cursor1Time time="1000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="71"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_clock_counter/houradd" type="logic">
+      <obj_property name="ElementShortName">houradd</obj_property>
+      <obj_property name="ObjectShortName">houradd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clock_counter/minadd" type="logic">
+      <obj_property name="ElementShortName">minadd</obj_property>
+      <obj_property name="ObjectShortName">minadd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clock_counter/pulse" type="logic">
+      <obj_property name="ElementShortName">pulse</obj_property>
+      <obj_property name="ObjectShortName">pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clock_counter/TbClock" type="logic">
+      <obj_property name="ElementShortName">TbClock</obj_property>
+      <obj_property name="ObjectShortName">TbClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clock_counter/TbSimEnded" type="logic">
+      <obj_property name="ElementShortName">TbSimEnded</obj_property>
+      <obj_property name="ObjectShortName">TbSimEnded</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clock_counter/TbPeriod" type="other">
+      <obj_property name="ElementShortName">TbPeriod</obj_property>
+      <obj_property name="ObjectShortName">TbPeriod</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clock_counter/dut/min" type="other">
+      <obj_property name="ElementShortName">min</obj_property>
+      <obj_property name="ObjectShortName">min</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clock_counter/dut/hour" type="other">
+      <obj_property name="ElementShortName">hour</obj_property>
+      <obj_property name="ObjectShortName">hour</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clock_counter/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+</wave_config>
