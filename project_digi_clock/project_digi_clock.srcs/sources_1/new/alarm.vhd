@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 04/10/2025 09:10:18 AM
+-- Create Date: 04/17/2025 09:46:34 AM
 -- Design Name: 
--- Module Name: clock_counter - Behavioral
+-- Module Name: alarm - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,45 +31,39 @@ use IEEE.NUMERIC_STD.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity clock_counter is
-
+entity alarm is
     Port ( houradd : in STD_LOGIC;
            minadd : in STD_LOGIC;
-           pulse : in STD_LOGIC;
+           set : in STD_LOGIC;
            clk : in STD_LOGIC;
-           hour_out: out std_logic_vector (6 downto 0);
-           min_out: out std_logic_vector (6 downto 0)
+           min_in : in std_logic_vector(6 downto 0);
+           hour_in : in std_logic_vector(6 downto 0);
+           hour_al: out std_logic_vector (6 downto 0);
+           min_al: out std_logic_vector (6 downto 0);
+           alarm: out std_logic
            );
-end clock_counter;
+end alarm;
 
-architecture Behavioral of clock_counter is
-signal min_count : positive range 1 to 60000;
-signal min : unsigned (6 downto 0) := (others => '0') ;
+architecture Behavioral of alarm is
+signal min : unsigned (6 downto 0) := (others => '0');
 signal hour : unsigned (6 downto 0) := (others => '0');
 begin
-
     process(clk) begin
     if rising_edge(clk) then
-        if pulse = '1' then
-            min_count <= min_count+1;
-            if min_count = 60 then
-                min <= min+1;
-                min_count <= 0;
-            end if;
-            if min = 60 then
-                hour <= hour+1;
-                min <= (others => '0');
-            end if;
-            end if;
-        end if;
         if minadd = '1' then
             min <= min+1;
         end if;
         if houradd = '1' then
             hour <= hour+1;
         end if;
-    end process;
-    
-    hour_out <= std_logic_vector(hour);
-    min_out <= std_logic_vector(min);
+        if min_in = min then
+            alarm <= '1' ;
+        end if;
+
+   end if;
+
+end process;
+
+    hour_al <= std_logic_vector(hour);
+    min_al <= std_logic_vector(min);
 end Behavioral;

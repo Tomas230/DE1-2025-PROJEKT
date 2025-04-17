@@ -2,12 +2,12 @@
 # Webtalk v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Thu Apr 10 10:08:40 2025
-# Process ID: 3532
+# Start of session at: Thu Apr 17 09:17:09 2025
+# Process ID: 5656
 # Current directory: C:/Users/247765/Documents/project_digi_clock/project_digi_clock.sim/sim_1/behav/xsim
 # Command line: wbtcv.exe -mode batch -source C:/Users/247765/Documents/project_digi_clock/project_digi_clock.sim/sim_1/behav/xsim/xsim.dir/tb_clock_counter_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: C:/Users/247765/Documents/project_digi_clock/project_digi_clock.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: C:/Users/247765/Documents/project_digi_clock/project_digi_clock.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
 source C:/Users/247765/Documents/project_digi_clock/project_digi_clock.sim/sim_1/behav/xsim/xsim.dir/tb_clock_counter_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Thu Apr 10 10:08:41 2025...
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 17 09:17:10 2025...
