@@ -1,0 +1,16 @@
+
+*** Running vivado
+    with args -log project_clock.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source project_clock.tcl -notrace
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source project_clock.tcl -notrace
+Command: link_design -top project_clock -part xc7a50ticsg324-1L
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
