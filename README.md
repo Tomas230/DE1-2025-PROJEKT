@@ -62,16 +62,14 @@ ________________________________________________
 
 ### Clock:
 
-![image](https://github.com/user-attachments/assets/cefaf0c0-360e-49ea-add1-5658e99d4cbf)
-
-After one period of the clk_1hz signal, the seconds overflow from 59 to 00. The same thing happens with the minutes at 59, then they are also reset to 00.
-Similarly, an overflow occurs for hours. From value 23 to 00. This triple transition is correctly captured in the simulation and verifies the correct functionality of the counter.
 
 
-![image](https://github.com/user-attachments/assets/261d83d5-b7f8-4c2d-9b18-593602916f8b)
+📊 Simulation Overview
+In the simulation, the behavior of the clock during overflow conditions was verified. After one cycle of the clk_1hz signal, the seconds counter rolls over from 59 to 00. A similar overflow occurs for minutes, which reset from 59 to 00. The hours counter follows the same pattern, resetting from 23 to 00. These transitions confirm the correct operation of the time-counting logic as observed in the simulation results.
 
-In this simulation was tested function of the stopwatch. If is switch 2 on - Stopwatch mode is displayed on the board. Then by pressing BTNC stopwatch starts couining using our CLK_1Hz. When you push BTNC once a again, then couting will stop. Switch 2 also works as a reset button.
 
+⏱ Stopwatch Mode Simulation
+The simulation also tested the stopwatch functionality. When Switch 2 is turned on, the system enters stopwatch mode, which is shown on the display. Pressing the BTNC button once starts the stopwatch using the CLK_1Hz signal. Pressing BTNC again pauses the count. Additionally, Switch 2 also serves as a reset function, returning the stopwatch to its initial state.
 ________________________________________________
 
 # References
@@ -79,7 +77,7 @@ ________________________________________________
 
 https://www.edaplayground.com/
 
-https://vhdl.lapinoo.net/
+[https://vhdl.lapinoo.net/](https://vhdlwhiz.com/free_vhdl_simulator_and_editor/)
 
 https://github.com/tomas-fryza/vhdl-labs
 
