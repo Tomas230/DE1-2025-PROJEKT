@@ -50,3 +50,36 @@ The alarm function enables users to set a specific activation time. Once the sys
 ### NEXYS-A7-50T
 ![image](https://github.com/user-attachments/assets/32ac67c4-537f-47bf-80d2-dcccd13ca3ec)
 
+________________________________________________
+
+# Software description
+
+## Block Scheme:
+![image](https://github.com/user-attachments/assets/eb087970-55d7-4c71-9f35-b385362d16a3)
+
+## Main component simulation:
+
+### Clock:
+
+![image](https://github.com/user-attachments/assets/cefaf0c0-360e-49ea-add1-5658e99d4cbf)
+
+After one period of the clk_1hz signal, the seconds overflow from 59 to 00. The same thing happens with the minutes at 59, then they are also reset to 00.
+Similarly, an overflow occurs for hours. From value 23 to 00. This triple transition is correctly captured in the simulation and verifies the correct functionality of the counter.
+
+
+![image](https://github.com/user-attachments/assets/261d83d5-b7f8-4c2d-9b18-593602916f8b)
+
+In this simulation was tested function of the stopwatch. If is switch 2 on - Stopwatch mode is displayed on the board. Then by pressing BTNC stopwatch starts couining using our CLK_1Hz. When you push BTNC once a again, then couting will stop. Switch 2 also works as a reset button.
+
+________________________________________________
+
+# References
+
+
+https://www.edaplayground.com/
+
+https://vhdl.lapinoo.net/
+
+https://github.com/tomas-fryza/vhdl-labs
+
+
