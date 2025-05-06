@@ -47,4 +47,6 @@ The alarm function enables users to set a specific activation time. Once the sys
 - Visual output using 7-segment displays and LED indicators
 
 ---
+### NEXYS-A7-50T
+![image](https://github.com/user-attachments/assets/32ac67c4-537f-47bf-80d2-dcccd13ca3ec)
 
