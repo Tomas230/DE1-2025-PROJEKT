@@ -1,0 +1,11 @@
+0.7
+2020.2
+Mar  6 2025
+19:11:35
+C:/Users/ondra/OneDrive/Dokumenty/GitHub/projekt_v3/projekt_v3.srcs/sim_1/new/tb_stop.vhd,1746541871,vhdl,,,,tb_stop,,,,,,,,
+C:/Users/ondra/OneDrive/Dokumenty/GitHub/projekt_v3/projekt_v3.srcs/sim_1/new/tb_top_level.vhd,1746551050,vhdl,,,,cfg_tb_top_level;tb_top_level,,,,,,,,
+C:/Users/ondra/OneDrive/Dokumenty/GitHub/projekt_v3/projekt_v3.srcs/sources_1/new/alarm.vhd,1746540721,vhdl,C:/Users/ondra/OneDrive/Dokumenty/GitHub/projekt_v3/projekt_v3.srcs/sources_1/new/top_level.vhd,,,alarm,,,,,,,,
+C:/Users/ondra/OneDrive/Dokumenty/GitHub/projekt_v3/projekt_v3.srcs/sources_1/new/clock_counter.vhd,1746551443,vhdl,C:/Users/ondra/OneDrive/Dokumenty/GitHub/projekt_v3/projekt_v3.srcs/sources_1/new/top_level.vhd,,,clock_counter,,,,,,,,
+C:/Users/ondra/OneDrive/Dokumenty/GitHub/projekt_v3/projekt_v3.srcs/sources_1/new/clock_enable.vhd,1746542062,vhdl,C:/Users/ondra/OneDrive/Dokumenty/GitHub/projekt_v3/projekt_v3.srcs/sources_1/new/top_level.vhd,,,clock_enable,,,,,,,,
+C:/Users/ondra/OneDrive/Dokumenty/GitHub/projekt_v3/projekt_v3.srcs/sources_1/new/stop.vhd,1746549421,vhdl,C:/Users/ondra/OneDrive/Dokumenty/GitHub/projekt_v3/projekt_v3.srcs/sources_1/new/top_level.vhd,,,stop,,,,,,,,
+C:/Users/ondra/OneDrive/Dokumenty/GitHub/projekt_v3/projekt_v3.srcs/sources_1/new/top_level.vhd,1746548056,vhdl,,,,top_level,,,,,,,,
