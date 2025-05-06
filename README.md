@@ -55,7 +55,8 @@ ________________________________________________
 # Software description
 
 ## Block Scheme:
-![image](https://github.com/user-attachments/assets/eb087970-55d7-4c71-9f35-b385362d16a3)
+![Snímka obrazovky 2025-05-07 003909](https://github.com/user-attachments/assets/b25197b6-9e6b-4418-8241-25f9369f7418)
+
 
 ## Main component simulation:
 
