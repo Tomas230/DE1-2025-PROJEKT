@@ -72,6 +72,15 @@ In the simulation, the behavior of the clock during overflow conditions was veri
 The simulation also tested the stopwatch functionality. When Switch 2 is turned on, the system enters stopwatch mode, which is shown on the display. Pressing the BTNC button once starts the stopwatch using the CLK_1Hz signal. Pressing BTNC again pauses the count. Additionally, Switch 2 also serves as a reset function, returning the stopwatch to its initial state.
 ________________________________________________
 
+### Simulations
+Test of stopwatch
+![image](https://github.com/user-attachments/assets/28414063-0e36-4e76-82f4-e56e454af834)
+
+Test of alarm
+![image](https://github.com/user-attachments/assets/7f8f2e8f-defb-47ba-b7c1-c7122552e95c)
+
+________________________________________________
+
 # References
 
 
